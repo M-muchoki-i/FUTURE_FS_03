@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Mama Wanjiku's Bakery</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="logo" href="index.html">🍞 Mama Wanjiku's</a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero menu-hero" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Our Delicious Menu</h1>
+        <p>Freshly baked daily with love from Thika</p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section container">
+      <h2>Breakfast Specials</h2>
+      <div class="grid cards">
+        <article class="card">
+          <img src="https://imgs.search.brave.com/0tx1vFN_gFYBazNM1-o1ok822Y_K9_FIIaUkyWDrOpU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aGVj/b3p5YXByb24uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzA0L2Nob2NvbGF0/ZS1nbGF6ZWQtZG9u/dXRzX3RoZWNvenlh/cHJvbl8xLmpwZw" alt="Mandazi" loading="lazy" />
+          <h3>Mandazi (6pcs)</h3>
+          <p>Fluffy triangle donuts, perfect morning bite.</p>
+          <span class="price">KSh 100</span>
+        </article>
+        <article class="card">
+          <img src="https://imgs.search.brave.com/6PA9STfdECWcn00lsN3RR3ZVrP-5VQdJ65YUO2Jwylo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9jaGFwYXRp/cy11bmxlYXZlbmVk/LWZsYXRicmVhZC1r/ZW55YW4tY3Vpc2lu/ZS0yNjBudy0xNjI3/MzYwMTU5LmpwZw" alt="Chapati" loading="lazy" />
+          <h3>Chapati (2pcs)</h3>
+          <p>Soft & crispy, made fresh every morning.</p>
+          <span class="price">KSh 80</span>
+        </article>
+        <article class="card">
+          <img src="https://imgs.search.brave.com/v_H1vNzQZNSK70pRR5U0rzkx-DcOHlVXdHl5mWRj82g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzE3/ODUvNTYyNy90LzYw/L2Fzc2V0cy9tYWtp/bmdfYmVlZl9zYW1v/c2EtMTY5NzMzMDg5/MDkyMl8xMDAweC5q/cGc_dj0xNjk3MzMw/ODkx" alt="Samosa" loading="lazy" />
+          <h3>Beef Samosa (4pcs)</h3>
+          <p>Spicy minced beef filling with crispy skin.</p>
+          <span class="price">KSh 120</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section container">
+      <h2>Cakes & Pastries</h2>
+      <div class="grid cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1599785209707-bd1a2a4f6186?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Birthday Cake" loading="lazy" />
+          <h3>Vanilla Birthday Cake</h3>
+          <p>8-inch, serves 12 people.</p>
+          <span class="price">KSh 2,500</span>
+        </article>
+        <article class="card">
+          <img src="https://imgs.search.brave.com/0tx1vFN_gFYBazNM1-o1ok822Y_K9_FIIaUkyWDrOpU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aGVj/b3p5YXByb24uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI1/LzA0L2Nob2NvbGF0/ZS1nbGF6ZWQtZG9u/dXRzX3RoZWNvenlh/cHJvbl8xLmpwZw" alt="Doughnuts" loading="lazy" />
+          <h3>Doughnuts (6pcs)</h3>
+          <p>Chocolate glazed & sprinkled.</p>
+          <span class="price">KSh 150</span>
+        </article>
+      </div>
+    </section>
+
+    <a href="https://wa.me/254712345678" class="cta-btn fixed-order" target="_blank" rel="noopener">Order via WhatsApp →</a>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>&copy; 2026 Mama Wanjiku's Bakery. Thika Road, Opposite Mathai Supermarket.</p>
+      <p><a href="tel:+254712345678">Call: 0712 345 678</a> | <a href="https://wa.me/254712345678">WhatsApp</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

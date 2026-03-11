@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Mama Wanjiku's Bakery</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="logo" href="index.html">🍞 Mama Wanjiku's</a>
+      <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero contact-hero" style="background-image: url('https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Get in Touch</h1>
+        <p>Order now or visit us in Thika</p>
+      </div>
+    </section>
+
+    <section class="contact-content container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Visit Us Today</h2>
+          <div class="contact-item">
+            <h3>📍 Location</h3>
+            <p>Victory Plaza, Thika Road<br />Opposite Mathai Supermarket<br />Githurai 45, Thika</p>
+          </div>
+          <div class="contact-item">
+            <h3>📱 WhatsApp Orders</h3>
+            <p><a href="https://wa.me/254703453047" class="whatsapp-btn">+254 703453047</a></p>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Quick Order Form</h3>
+          <form onsubmit="return submitOrder();">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="tel" id="phone" placeholder="Phone Number" required />
+            <textarea id="order" placeholder="What would you like? (e.g. 2 dozen mandazi)" required></textarea>
+            <button type="submit">Send to WhatsApp</button>
+          </form>
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.87!2d36.954!3d-1.033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTHN0MSc0NC4zIl6DEg4yJzI3LjkiUyE2NuKwNTAnMzguMiJF!5e0!3m2!1sen!2ske!4v1641000000000"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>&copy; 2026 Mama Wanjiku's Bakery. Thika Road, Opposite Mathai Supermarket.</p>
+      <p><a href="tel:+254703453047">Call: 0703453047</a> | <a href="https://wa.me/254703453047">WhatsApp</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
