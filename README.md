@@ -62,3 +62,8 @@ Originally the site existed as partial pages and had inconsistent components:
 - Use a small JSON menu data source + dynamic template render
 - Add Service Worker for offline and caching
 - Add metadata, SEO tags, OG tags and performance improvements
+
+
+
+live demo 
+https://docs.google.com/videos/d/1Y0U_1PRXNEauE9t7wFU6I6FzIyGAdreFtOY3Er1BkUI/edit?usp=sharing
